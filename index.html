@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ShopHouse | Your Desired Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TopBar -->
+    <section class="topbar pt-3">
+      <div
+        class="container text-white py-1 fw-bold d-flex justify-content-between"
+      >
+        <div class="left d-flex">
+          <div class="d-flex pe-5">
+            <i class="fa-solid fa-phone pe-2 pt-1"></i>
+            <p>+8801921-479294</p>
+          </div>
+          <div class="d-flex">
+            <i class="fa-regular fa-envelope pe-2 pt-1"></i>
+            <p>shophouse@gmail.com</p>
+          </div>
+        </div>
+        <div class="middle d-flex">
+          <div><p>Follow Us and get a chance to win 30% off</p></div>
+        </div>
+        <div class="right d-flex">
+          <p>Follow Us :</p>
+          <i class="fa-brands fa-instagram px-2 fs-6"></i>
+          <i class="fa-brands fa-youtube pe-2 fs-6"></i>
+          <i class="fa-brands fa-facebook pe-2 fs-6"></i>
+          <i class="fa-brands fa-twitter pe-2 fs-6"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navbar -->
+
+    <nav
+      class="container px-4 navbar navbar-expand-lg bg-body-tertiary fw-bold mb-5"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" height="50px" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Technology <i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Electronics <i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Decoration</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Groceries</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Health & Fitness</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Clothing</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Sports</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Books</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Others</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <p class="m-0">
+              <span class="blue pe-4"
+                ><i class="fa-regular fa-user px-2"></i>Login / Register</span
+              >
+            </p>
+            <button class="btn blue" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="btn blue" type="submit">
+              <a class="cart-btn" href="./redirect/baap-er-bank/index.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </button>
+            <button class="btn blue" type="submit">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+    <section class="slider d-flex container my-5">
+      <div class="texts-banner">
+        <h5 class="season-text text-uppercase fw-bold yellow-font mb-4">
+          summer 2020
+        </h5>
+        <h1 class="collection-text text-uppercase mb-4 fw-bold">
+          new <span class="yellow-font">collect</span>ion
+        </h1>
+        <p class="faded-font fs-5 mb-5">
+          We know how large objects will act,<br />
+          but things on a small scale.
+        </p>
+        <button
+          class="text-uppercase fs-4 fw-bold text-white banner-shop-btn btn px-5 py-3"
+        >
+          Shop Now
+        </button>
+      </div>
+    </section>
+
+    <!-- Sponsors  -->
+    <section class="sponsor-group my-5">
+      <div
+        class="d-flex align-items-center justify-content-around sponsor-group-insider"
+      >
+        <div class="logo-1">
+          <img src="images/sponsor-group/1.png" alt="" />
+        </div>
+        <div class="logo-2">
+          <img src="images/sponsor-group/2.png" alt="" />
+        </div>
+        <div class="logo-3">
+          <img src="images/sponsor-group/3.png" alt="" />
+        </div>
+        <div class="logo-4">
+          <img src="images/sponsor-group/4.png" alt="" />
+        </div>
+        <div class="logo-5">
+          <img src="images/sponsor-group/5.png" alt="" />
+        </div>
+        <div class="logo-6">
+          <img src="images/sponsor-group/6.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Product of the week -->
+    <section
+      class="weekly-featured container d-flex align-items-center justify-content-center"
+    >
+      <div class="left">
+        <img class="p-3" src="images/weekly-featured/big.png" alt="" />
+      </div>
+      <div class="right">
+        <img
+          class="pe-3 pt-3 d-block"
+          src="images/weekly-featured/small1.png"
+          alt=""
+        />
+        <img
+          class="pe-3 py-3 d-block"
+          src="images/weekly-featured/small2.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products my-5 container">
+      <h4 class="faded-font text-center">Featured Products</h4>
+      <h3 class="text-uppercase text-center mt-3 fw-bold">
+        bestseller products
+      </h3>
+      <p class="faded-font text-center my-4">
+        Problems trying to resolve the conflict between
+      </p>
+      <!-- Featured Gallery -->
+      <div
+        class="featured-gallery mt-5 d-grid align-items-center justify-content-around"
+      >
+        <div class="row">
+          <div class="col mb-5">
+            <img src="images/bestseller/1.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Graphic Design</h6>
+            <p class="faded-font mb-3 text-center">Designer's choice</p>
+            <p class="text-center fw-bold faded-font">
+              $10.32<span class="price-highlight ps-2"> $8.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/2.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Web Dev</h6>
+            <p class="faded-font mb-3 text-center">Developer's choice</p>
+            <p class="text-center fw-bold faded-font">
+              $20.40<span class="price-highlight ps-2"> $18.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/3.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Graphics Creation</h6>
+            <p class="faded-font mb-3 text-center">Creator's choice</p>
+            <p class="text-center fw-bold faded-font">
+              $10.99<span class="price-highlight ps-2"> $8.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/4.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Summoner</h6>
+            <p class="faded-font mb-3 text-center">Gamer's choice</p>
+            <p class="text-center fw-bold faded-font">
+              $20.00<span class="price-highlight ps-2"> $18.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/5.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Editor</h6>
+            <p class="faded-font mb-3 text-center">Editor's choice</p>
+            <p class="text-center fw-bold faded-font">
+              $40.50<span class="price-highlight ps-2"> $35.99 </span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="images/bestseller/6..png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Casual</h6>
+            <p class="faded-font mb-3 text-center">People's Choice</p>
+            <p class="text-center fw-bold faded-font">
+              $15.00<span class="price-highlight ps-2"> $12.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/7.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Cotton</h6>
+            <p class="faded-font mb-3 text-center">People's Choice</p>
+            <p class="text-center fw-bold faded-font">
+              $30.40<span class="price-highlight ps-2"> $26.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/8.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Formal</h6>
+            <p class="faded-font mb-3 text-center">People's Choice</p>
+            <p class="text-center fw-bold faded-font">
+              $10.80<span class="price-highlight ps-2"> $8.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/9.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Semi-Formal</h6>
+            <p class="faded-font mb-3 text-center">People's Choice</p>
+            <p class="text-center fw-bold faded-font">
+              $22.99<span class="price-highlight ps-2"> $18.99 </span>
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/bestseller/10.png" alt="" />
+            <h6 class="fw-bold text-center mt-3">Tops</h6>
+            <p class="faded-font mb-3 text-center">Women's Choice</p>
+            <p class="text-center fw-bold faded-font">
+              $23.99<span class="price-highlight ps-2"> $18.99 </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="featured-btn m-auto w-100 text-center my-5">
+        <button
+          class="btn text-uppercase py-3 px-5 btn-outline-warning fw-bold"
+        >
+          load more products
+        </button>
+      </div>
+    </section>
+
+    <!-- Love to do featued products -->
+    <section class="love-to-do my-5 container">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <div
+          class="love-to-do-images d-flex align-items-center justify-content-center"
+        >
+          <img class="d-block pe-3" src="./images/love-to-do/1.png" alt="" />
+          <img class="d-block" src="./images/love-to-do/2.png" alt="" />
+        </div>
+        <div class="love-to-do-texts ms-5 w-25">
+          <h4 class="yellow-font fw-bold">Featured Products</h4>
+          <h1 class="fw-bold">We love what we do</h1>
+          <p class="faded-font">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics. <br /><br />
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best services -->
+    <section class="best-services my-5 container">
+      <h3 class="fw-bold faded-font text-center">Featured Products</h3>
+      <h2 class="fw-bold text-center fs-1 mt-4">The Best services</h2>
+      <div
+        class="best-services-des d-flex align-items-center justify-content-around all-boxed"
+      >
+        <div class="boxed text-center w-25">
+          <img src="./images/best-services/1.png" alt="" />
+          <h2 class="fw-bold faded-font mt-4 mb-3">Easy Wins</h2>
+          <p class="faded-font">
+            Get your best looking smile <br />
+            now!
+          </p>
+        </div>
+        <div class="boxed text-center w-25">
+          <img src="./images/best-services/2.png" alt="" />
+          <h2 class="fw-bold faded-font mt-4 mb-3">Concrete</h2>
+          <p class="faded-font">
+            Defalcate is most focused in <br />
+            helping you discover your most <br />
+            beautiful smile
+          </p>
+        </div>
+        <div class="boxed text-center w-25">
+          <img
+            class="icon-minus-margin"
+            src="./images/best-services/3.png"
+            alt=""
+          />
+          <h2 class="fw-bold faded-font mt-3 mb-3">Hack Growth</h2>
+          <p class="faded-font">Overcame any hurdle or any br other problem</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- upper footer -->
+    <div class="bgcuf">
+      <section
+        class="upper-footer py-5 d-flex align-items-center justify-content-between"
+      >
+        <div class="logo">
+          <img class="d-block" src="./images/logo.png" alt="" />
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-facebook pe-3 fs-3 text-primary"></i>
+          <i class="fa-brands fa-instagram pe-3 fs-3 text-danger"></i>
+          <i class="fa-brands fa-twitter fs-3 text-info"></i>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <section
+      class="footer d-flex justify-content-evenly align-items-center my-5"
+    >
+      <div class="left d-flex justify-content-between">
+        <ul class="d-block">
+          <li><a class="a-black" href="#">Company info</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Carrier</a></li>
+          <li><a href="#">We are hiring</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="d-block">
+          <li><a class="a-black" href="#">Legal</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">We are hiring</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Company info</a></li>
+        </ul>
+        <ul class="d-block">
+          <li><a class="a-black" href="#">Features</a></li>
+          <li><a href="#">Business Marketing</a></li>
+          <li><a href="#">User Analytic</a></li>
+          <li><a href="#">Live Chat</a></li>
+          <li><a href="#">Unlimited Support</a></li>
+        </ul>
+        <ul class="d-block">
+          <li><a class="a-black" href="#">Resources</a></li>
+          <li><a href="#">iOS & Android</a></li>
+          <li><a href="#">Watch a Demo</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">API</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <h4 class="fs-3 fw-bold faded-font">Get in touch</h4>
+        <!-- input with button group  -->
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="example@gmail.com"
+            aria-describedby="button-addon2"
+          />
+          <button class="btn orange-btn" type="button" id="button-addon2">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- rights reserved -->
+    <div class="bgcuf">
+      <div class="all-rights-reserved container py-5">
+        <p class="fs-6 fw-bold faded-font m-0">
+          Made With Love By Rafi Ferdos | All Right Reserved
+        </p>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+*{
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topbar {
+  font-size: 0.8rem;
+  background: #ffaa00;
+}
+.container {
+  max-width: 90%;
+}
+.blue {
+  color: #23a6f0;
+}
+
+.slider {
+  height: 70vh;
+  background: url(./images/banner.png) no-repeat center center;
+}
+.texts-banner {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+
+.yellow-font {
+  color: #ffaa00;
+}
+
+.faded-font {
+  color: #737373;
+}
+
+.collection-text {
+    font-size: 50px;
+}
+.banner-shop-btn{
+    background: #ffaa00;
+
+}
+.banner-shop-btn:hover{
+    background: white;
+    color: #ffaa00 !important;
+}
+
+.sponsor-group img{
+    height: 60px;
+}
+.sponsor-group {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+.sponsor-group-insider {
+    width: 70%;
+    margin:auto;
+}
+
+.weekly-featured{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.price-highlight {
+  color: #23856d;
+}
+.featured-btn {
+  margin-top: 150px !important;
+}
+.featured-btn button:hover {
+  color: white;
+  background: #ffaa00;
+}
+
+.love-to-do {
+  margin-top: 150px !important;
+  margin-bottom: 150px !important;
+}
+
+.all-boxed {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.upper-footer {
+  max-width: 70%;
+  margin: auto;
+}
+.bgcuf {
+  background-color: #fafafa;
+}
+.icon-minus-margin {
+  margin-top: -70px;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.footer ul li a {
+  color: #737373;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.orange-btn {
+  background-color: #ffaa00;
+  color: white;
+}
+.a-black {
+  color: black !important;
+}
+.all-rights-reserved {
+  max-width: 68%;
+}
+
+.cart-btn {
+  text-decoration: none;
+  color: #23a6f0 !important;
+}
