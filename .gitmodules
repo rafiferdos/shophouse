@@ -1,0 +1,3 @@
+[submodule "redirect/baap-er-bank"]
+    path = redirect/baap-er-bank
+    url = https://github.com/example/baap-er-bank.git
